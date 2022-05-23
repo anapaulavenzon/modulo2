@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>CADASTRO LEMBRETES</title>
+</head>
+
+<body>
+    <h1>Meus Lembretes <span class="btnsair"><button class="btn-apagar" id="sair">SAIR</button></span></h1>
+
+    <form id="form-cadastro" >
+        <fieldset >
+            <legend>Registrar Lembretes</legend>
+
+            <label for="descricao">Descricao</label>
+            <input type="text" name="descricao" id="input-descricao">
+
+            <label for="descricao-detalhamento">Detalhamento</label>
+            <input type="text" name="descricao-lembrete" id="input-recado">
+
+            <input type="button" value="SALVAR" id="btn-salvar">
+          
+        </fieldset>
+    </form>
+
+    <table id="tabela-registros">
+       
+        <tr>
+            <th>#</th>
+            <th>Descrição</th>
+            <th>Lembrete</th>
+            <th>Ação</th>
+            
+        </tr>
+        <tbody id="dados">
+          
+        </tbody>
+       
+    </table>
+    <script src="./js/cadastro.js"></script>
+
+
+    
+</body>
+
+</html>

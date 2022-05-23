@@ -1,0 +1,75 @@
+* {
+    
+    font-family: sans-serif;
+    color: chocolate;
+  
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr.registros:hover {
+    background-color: burlywood;
+  }
+ 
+  button {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  button.btn-editar {
+    background-color: cornflowerblue;
+  }
+  .btnsair {
+   float: right; 
+
+  }
+  button.btn-apagar {
+    background-color: coral;
+  }
+  
+  input#btn-salvar {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  input#btn-atualizar {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 70px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  input#btn-cancelar {
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 70px;
+    display: none;
+    cursor: pointer;
+  }
+  
